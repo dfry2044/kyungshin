@@ -98,7 +98,8 @@ header h1.logo a img{
 
 /* section */
 .sec-visual{
-    height: 526px;
+    height: 524px;
+    margin-bottom: 20px;
 }
 .sec-inner{
     width: 100%;
@@ -106,6 +107,31 @@ header h1.logo a img{
     max-width: 1340px;
     margin: 0 auto;
     padding: 0 50px;
+}
+.sec-title{
+    margin-top: 100px;
+    text-align: center;
+}
+.sec-title h3{
+    font-size: 36px;
+    font-family: "Noto Sans Kr";
+    font-weight: 600;
+    color: #222;
+    line-height: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50%);
+    animation: fadeIn-up 0.9s cubic-bezier(0.145, .045, .355, 1) forwards;
+}
+.sec-title p{
+    margin-top: 32px;
+    font-size: 20px;
+    font-family: "Noto Sans Kr";
+    font-weight: 400;
+    color: #222;
+    line-height: 34px;
+    transform: translateY(50%);
+    animation: fadeIn-up 0.9s cubic-bezier(0.145, .045, .355, 1) forwards;
 }
 
 /* page */
