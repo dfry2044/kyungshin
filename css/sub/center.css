@@ -1,3 +1,4 @@
+/* reported-news */
 .sec-visual.reported-news-visual{
     background: url("../../image/sub/visual/visual01.jpg") no-repeat center / cover;
 }
@@ -63,3 +64,27 @@
     -webkit-text-stroke: 1px #828282;
     line-height: 34px;
 }
+
+/* personnel system */
+.sec-visual.personnel-system-visual{
+    background: url("../../image/sub/visual/visual02.jpg") no-repeat center / cover;
+}
+/* .personnel-system-schematic{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 2px;
+    margin-top: 80px;
+    height: 194px;
+    position: relative;
+}
+.personnel-system-schematic li{
+    position: absolute;
+    top: 34px;
+    left: 26px;
+    border-bottom: 4px;
+}
+.personnel-system-schematic li:nth-child(1){
+    background-color: #daf0ff;
+    height: calc(100% - 28 * 4);
+} */
